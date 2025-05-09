@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Bakery/static/css/main.cec8c49e.css",
-    "main.js": "/Bakery/static/js/main.02448143.js",
+    "main.css": "/Bakery/static/css/main.7a59a2ee.css",
+    "main.js": "/Bakery/static/js/main.8d2534af.js",
     "static/media/cake1.jpg": "/Bakery/static/media/cake1.34fd3f7b3d633c166efc.jpg",
     "static/media/cake2.jpg": "/Bakery/static/media/cake2.b58ff9f045e32303e26b.jpg",
     "static/media/cake3.jpg": "/Bakery/static/media/cake3.e2f3d6a857789d3905ee.jpg",
     "static/media/Logo.jpg": "/Bakery/static/media/Logo.8b9c7c7a8a23b70cb537.jpg",
     "static/media/veg-logo.png": "/Bakery/static/media/veg-logo.dc9becf09e06b5269572.png",
     "index.html": "/Bakery/index.html",
-    "main.cec8c49e.css.map": "/Bakery/static/css/main.cec8c49e.css.map",
-    "main.02448143.js.map": "/Bakery/static/js/main.02448143.js.map"
+    "main.7a59a2ee.css.map": "/Bakery/static/css/main.7a59a2ee.css.map",
+    "main.8d2534af.js.map": "/Bakery/static/js/main.8d2534af.js.map"
   },
   "entrypoints": [
-    "static/css/main.cec8c49e.css",
-    "static/js/main.02448143.js"
+    "static/css/main.7a59a2ee.css",
+    "static/js/main.8d2534af.js"
   ]
 }
