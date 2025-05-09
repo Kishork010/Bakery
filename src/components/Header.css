@@ -1,0 +1,60 @@
+/* General header styles */
+.header {
+  padding: 10px 20px;
+  background-color: #fff8f0; /* Creamy bakery background */
+  box-shadow: 0 2px 4px rgba(217, 166, 121, 0.3); /* Soft shadow */
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* Top section: left logo/name and right logo */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left logo and name */
+.logo-bakery-name {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.bakery-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #5c3a21; /* Cocoa brown */
+}
+
+/* Right logo styling */
+.right-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Navigation bar */
+.nav-links {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #5c3a21;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff8c94; /* Sweet pink highlight */
+}
