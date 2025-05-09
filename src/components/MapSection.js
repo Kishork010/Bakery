@@ -6,7 +6,7 @@ function MapSection() {
     <div className="map-section" data-aos="fade-up">
       <div className="info-box">
         <h2>Shah Sweets & Bakers (Pure Veg)</h2>
-        <p><strong></strong> Tilak Nagar, Kusnoor, Kalaburagi, Karnataka 585102 </p>
+        <p><strong></strong> Shahbad Cross, Kusnoor, Kalaburagi, Karnataka 585102 </p>
         <p><strong>Timing:</strong> 7:00 AM – 10:00 PM (All days)</p>
         <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (5 / 5)</p>
       </div>

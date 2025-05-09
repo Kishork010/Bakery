@@ -1,10 +1,9 @@
 /* General header styles */
 .header {
   padding: 10px 20px;
-  background-color: #fff8f0; /* Creamy bakery background */
+   /* Creamy bakery background */
   box-shadow: 0 2px 4px rgba(217, 166, 121, 0.3); /* Soft shadow */
   font-family: 'Poppins', sans-serif;
-
 }
 
 /* Top section: left logo/name and right logo */
@@ -18,26 +17,35 @@
 .logo-bakery-name {
   display: flex;
   align-items: center;
-  
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 140px;
+  height: 150px;
+  
+}
+
+.logo1 {
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
 .bakery-name {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
   color: #5c3a21; /* Cocoa brown */
+  margin-left: 80px;
 }
 
 /* Right logo styling */
 .right-logo img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 /* Navigation bar */
@@ -50,6 +58,7 @@
 
 .nav-links a {
   text-decoration: none;
+  font-size: 20px;
   color: #5c3a21;
   font-weight: 500;
   transition: color 0.3s ease;

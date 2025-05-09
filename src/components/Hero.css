@@ -37,20 +37,23 @@
   max-width: 700px;
   padding: 20px;
   color: white;
+  font-family: 'Poppins', sans-serif;
+  
 }
 
 .hero-text h1 {
-  font-size: 28px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
 .hero-text p {
-  font-size: 14px;
-  margin: 6px 0;
+  font-size: 20px;
+  
+  
 }
 
 .shop-button {
-  margin-top: 15px;
+  margin-top: 80px;
   padding: 10px 20px;
   background-color: #fff;
   color: #54392d;

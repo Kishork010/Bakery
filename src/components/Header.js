@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css';
-import logo from '../assets/images/Logo.jpg';
+import logo from '../assets/images/logo1.jpg';
 import logo1 from '../assets/images/veg-logo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
@@ -35,10 +36,12 @@ function Header() {
       </div>
 
       <nav className="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/menu">Menu</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+
       </nav>
     </header>
   );

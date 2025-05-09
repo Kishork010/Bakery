@@ -1,6 +1,7 @@
 import React from 'react';
-import cakeImage from '../assets/images/cake1.jpg'; // Adjust path as needed
+import cakeImage from '../assets/images/cake.4.jpg'; // Adjust path as needed
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
   return (
@@ -10,7 +11,7 @@ function HeroSection() {
       </div>
       <div className="hero-content">
         <h1>Shah Sweets and Bakery Delights, Freshly Made Every Day in the Heart of Your City</h1>
-        <button className="menu-button">Menu</button>
+        <Link to="/menu" className="shop-button">Menu</Link>
       </div>
     </div>
   );

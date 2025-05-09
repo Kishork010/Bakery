@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
+import { Link } from 'react-router-dom';
 
-import cake1 from '../assets/images/cake1.jpg';
-import cake2 from '../assets/images/cake2.jpg';
-import cake3 from '../assets/images/cake3.jpg';
+import cake1 from '../assets/images/cake.1.jpg';
+import cake2 from '../assets/images/cake.2.jpg';
+import cake3 from '../assets/images/cake.3.jpg';
 
 const images = [cake1, cake2, cake3];
 
@@ -34,7 +35,7 @@ function Hero() {
           <p>Freshly baked happiness, traditional sweets, and 100% pure vegetarian delights.</p>
           <p>Taste the love in every bite – from handcrafted mithai to oven-fresh pastries!</p>
           <p>Like a layer cake, life has its ups and downs. But whether you frost it up or top it with joy is up to you.</p>
-          <a href="#shop" className="shop-button">Shop Now</a>
+          <Link to="/menu" className="shop-button">Shop Now</Link>
         </div>
       </div>
     </div>
